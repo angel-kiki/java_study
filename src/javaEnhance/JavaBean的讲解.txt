@@ -1,0 +1,23 @@
+IntroSpector-->JavaBean->特殊的Java类
+
+里面有getXxx()和setXxx()的可以称为JavaBean。
+
+写一个简单的JavaBean，Person类
+class Person {
+    private int x;
+    public int getAge(){
+        return x;
+    }
+    public void setAge(int age){
+        this.x = age;
+    }
+}
+
+getAge()和setAge()对外提供，根据get和set后的名称推断属性名称，而不是内部私有变量。
+
+变量名：
+Age-->如果第二个字母是小写的，则把第一个字母变成小写-->age
+
+gettime-->time
+setTime-->time
+getCPU-->CPU如果第二个字母是大小的，则变量维持原样。

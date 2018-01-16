@@ -1,0 +1,3 @@
+2017-11-21 23:44:38
+java.lang.ArrayIndexOutOfBoundsException: 3
+	at day19.ExceptionInfo.main(ExceptionInfo.java:15)
